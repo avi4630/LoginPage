@@ -2,8 +2,7 @@
 import React, { useState } from 'react';
 import { Row, Col, Button, Container } from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import LeftComponent from "./leftComponent"
-const RightComponent = () => {
+const FormComponent = () => {
 
     return (
         <Container className="themed-container" fluid={true}>
@@ -14,7 +13,7 @@ const RightComponent = () => {
                     </Row>
                     <Row className="d-flex justify-content-between mt-5 ">
                         <Button className="text-white bg-dark btn-outline-dark">Sign UP</Button>
-                        <Button className="text-white bg-dark btn-outline-dark btn-round-lg">Sign IN</Button>
+                        <Button className="text-white bg-dark btn-outline-dark btn-round-lg">LOG IN</Button>
                     </Row>
                     <Row className="mt-5 justify-content-around ">
                         <Button className="text-dark bg-white btn-circle btn-sm">LOGIN WITH EMAIL</Button>
@@ -34,4 +33,4 @@ const RightComponent = () => {
         </Container>
     )
 }
-export default RightComponent;
+export default FormComponent;
